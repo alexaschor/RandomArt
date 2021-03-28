@@ -1,7 +1,7 @@
 # RandomArt
 
 This is a C++ implementation of a randomart generator. It is based on and very similar in structure and function to the [random-art.org Python implementation](http://www.random-art.org/about/), but much faster.
-It generates images like these:
+It generates images like the following. One of them is my Github profile picture
 
 ![](collage.png)
 
