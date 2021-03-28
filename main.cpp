@@ -49,7 +49,7 @@ class Operation {
 			inputs = in; 
 		} 
 
-		~Operation() {
+		virtual ~Operation() {
 			for (int i = 0; i < inputs.size(); ++i) {
 				delete inputs[i];
 			}
