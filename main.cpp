@@ -364,7 +364,7 @@ int main(int argc, char** argv) {
 		size_t h = stringHasher(s);
 		twister.seed(h);
 	} else if (argc == 1) {
-		chrono::steady_clock::time_point now = chrono::high_resolution_clock::now();
+		auto now = chrono::high_resolution_clock::now();
 		string s = to_string(now.time_since_epoch().count());
 		cout << "Using seed " << s << "\n" << endl;
 		size_t h = stringHasher(s);
