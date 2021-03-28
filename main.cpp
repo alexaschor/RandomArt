@@ -399,4 +399,7 @@ int main(int argc, char** argv) {
 	}
 
 	writePPM("random.ppm", xRes, yRes, values);
+
+	delete[] values;
+	delete root;
 }
